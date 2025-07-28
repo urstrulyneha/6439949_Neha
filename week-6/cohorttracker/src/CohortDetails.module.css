@@ -1,0 +1,52 @@
+.cohortBox {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  max-width: 600px;
+  margin: 30px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.cohortBox:hover {
+  transform: translateY(-5px);
+}
+
+.cohortBox h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.cohortBox h3 span {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-left: 10px;
+}
+
+.cohortBox dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  row-gap: 15px;
+  column-gap: 15px;
+}
+
+.cohortBox dt {
+  font-weight: 600;
+  color: #34495e;
+}
+
+.cohortBox dd {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.green {
+  color: #27ae60;
+}
+
+.red {
+  color: #c0392b;
+}
